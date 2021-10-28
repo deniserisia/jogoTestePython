@@ -1,0 +1,18 @@
+body{
+    background-image: url("imagens/vacas.jpg");
+    background-size: cover;
+}
+.caixa{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #C36839;
+    padding: 10px;
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+}
+fieldset{
+    border: 3px solid #6ECB63;
+}
