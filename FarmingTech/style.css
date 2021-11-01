@@ -100,6 +100,39 @@ img.logo-navbar {
     height: 30px;
 }
 
+@media (orientation: landscape){
+    .modulos{
+        flex-direction: row;
+    }
+    .row{
+        flex-direction: row;
+    }
+    .cards{
+        flex-direction: row;
+    }
+    .topicos{
+        flex-direction: row;
+    }
+}
+
+@media (orientation: portrait){
+    .modulos{
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .topicos{
+        flex-direction: column;
+    }
+}
+
+
+
+
 
 /* PARTE DO SOBRE DO PROJETO */
 #sobre{
@@ -203,10 +236,18 @@ img.logo-navbar {
     color:#000000;
 }
 
+
+/* PARTE DO DIFERENCIAL */
 #Diferencial{
-    padding: 200px;
+    padding: 180px;
     background-color: #A9783B;
 }
+.topicos{
+    text-align: center;
+    font-size: 28px;
+}
+
+
 /* PARTE DO VALOR/MISSAO/OBJETIVO */
 #Proposito{
     padding: 140px;
